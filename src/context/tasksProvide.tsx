@@ -3,8 +3,8 @@ import { TaskContext } from './tasksContext';
 import { Task } from '../interfaces';
 
 const tasksList: Task[] = [
-    { id: '111-44224-4242', description: 'Baila Zamba', isCompleted: false },
-    { id: '111-44224-4243', description: 'Jugar con xPeke 🐲', isCompleted: false },
+    { id: '111-44224-4242', description: 'Ir a clases de danza con nataniel en la tarde', isCompleted: false },
+    { id: '111-44224-4243', description: 'Jugar con futbol con amigos', isCompleted: false },
 ];
 
 interface Props {

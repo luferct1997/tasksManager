@@ -15,12 +15,13 @@ export const Task = ({ onPress, task: { isCompleted, description } }: Props) => 
                     <Ionicons
                         name={isCompleted ? 'checkbox' : 'square-outline'}
                         size={24}
-                        color={isCompleted ? 'green' : 'grey'}
+                        color={isCompleted ? '#6750A4' : 'grey'}
                     />
                     <Text style={{ marginLeft: 8 }}>{description}</Text>
                 </View>
             </Pressable>
         </View>
+
     );
 };
 
